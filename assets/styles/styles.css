@@ -89,7 +89,9 @@ main {
 
 .projects {
   display: flex;
+  margin-bottom: 3rem; 
 }
+
 .container {
   position: relative;
   width: 50%;
