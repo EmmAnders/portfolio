@@ -89,7 +89,6 @@ main {
 
 .projects {
   display: flex;
-  margin-bottom: 10%;
 }
 .container {
   position: relative;
@@ -159,6 +158,10 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+  header,
+  main {
+    margin: 1.2rem;
+  }
   .cursor {
     display: none;
   }
@@ -185,10 +188,7 @@ h2 {
 }
 
 @media screen and (max-width: 415px) {
-  header,
-  main {
-    margin: 1.2rem;
-  }
+ 
 
   .nav-links {
     width: 70%;
